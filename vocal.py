@@ -1,6 +1,12 @@
 #!usr/bin/python
 # -*- coding: utf -8 -*-
 
+"""
+Función que recibe como parámetro un caracter y determina si es vocal o cualquier otro tipo de caracter. Devuelve un valor lógico.
+Autor: Pablo Sulbarán (psulbaran@cenditel.gob.ve)
+Fecha: 27-02-2018
+"""
+
 caracter = raw_input("Introduzca un caracter ")
 
 def letra(caracter):

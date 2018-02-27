@@ -2,6 +2,12 @@
 # -*- coding: utf -8 -*-
 #Primer programa en python
 
+"""
+Procedimiento que compara dos números reales y determina cual es el mayor
+Autor: Pablo Sulbarán (psulbaran@cenditel.gob.ve)
+Fecha: 27-02-2018
+"""
+
 n1 = float(raw_input("Introduzca el primer numero "))
 n2 = float(raw_input("Introduzca el segundo numero "))
 
