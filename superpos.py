@@ -24,12 +24,18 @@ for j in range(m):
 def superposicion(vector1, vector2):
     i=0
     j=0
+    cont= 0
+    cont2= 0
     for i in range(n):
         for j in range(m):
             if (vector1[i]==vector2[j]): #Compara ambas listas
-                valor= True
+                cont= cont+1
             else:
-                valor= False
+                cont2= cont2+1
+    if (cont>0):
+        valor= True
+    else:
+        valor= False
     return valor
 
 if (superposicion(vector1, vector2)==True):
